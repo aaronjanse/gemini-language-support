@@ -1,0 +1,39 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Gemini",
+	"patterns": [
+		{
+			"include": "#headings"
+		},
+		{
+			"include": "#raw"
+		},
+		{
+			"include": "#links"
+		},
+		{
+			"include": "#unorderedLists"
+		}
+	],
+	"repository": {
+		"headings": {
+			"name": "markup.heading.gemini",
+			"begin": "#",
+			"end": "\n"
+		},
+		"raw": {
+			"name": "markup.raw.gemini",
+			"begin": "^```.*\n",
+			"end": "^```.*\n"
+		},
+		"links": {
+			"name": "markup.underline.link.gemini",
+			"match": "^=> +[^ ]+"
+		},
+		"unorderedLists": {
+			"name": "markup.list.unnumbered.gemini",
+			"match": "^\\*+.+\n"
+		}
+	},
+	"scopeName": "source.gemini"
+}

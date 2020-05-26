@@ -1,0 +1,24 @@
+{
+    "name": "gemini",
+    "displayName": "Gemini",
+    "description": "Adds support for text/gemini",
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.45.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "gemini",
+            "aliases": ["Gemini", "gemini"],
+            "extensions": [".gmi",".gemini"]
+        }],
+        "grammars": [{
+            "language": "gemini",
+            "scopeName": "source.gemini",
+            "path": "./syntaxes/gemini.tmLanguage.json"
+        }]
+    }
+}
