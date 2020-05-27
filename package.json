@@ -2,10 +2,16 @@
     "name": "gemini",
     "displayName": "Gemini",
     "description": "Adds support for text/gemini",
-    "version": "1.0.0",
+    "version": "1.0.1",
+    "publisher": "aaronduino",
     "engines": {
-        "vscode": "^1.45.0"
+        "vscode": "^1.43.0"
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/aaronjanse/gemini-language-support"
+    },
+    "homepage": "https://github.com/aaronjanse/gemini-language-support",
     "categories": [
         "Programming Languages"
     ],
